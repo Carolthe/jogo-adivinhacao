@@ -18,6 +18,7 @@ export default function Jogo (){
         setButtonSorteio(numero)
     }
 
+
     return(
         <>
         <h1>Jogo de Adivinhação de números</h1>
@@ -28,7 +29,7 @@ export default function Jogo (){
         onChange={handleInputChange}/>
         <button
         onClick={handleButtonClick}
-        >Click para salvar o número</button>
+        >Click para salvar o seu número</button>
         </div>
         <p>número escolhido: {buttonClick}</p>
         
